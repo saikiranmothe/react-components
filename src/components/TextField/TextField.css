@@ -1,0 +1,48 @@
+.text-field {
+  background-color: #efefef;
+  height: 46px;
+  padding: 10px 16px;
+  font-family: Brandon, sans-serif;
+  font-size: 18px;
+  color: #555555;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+
+.text-field:hover {
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+.text-field:focus {
+  outline: none;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+  border: 1px solid #14abe0;
+}
+
+.text-field-label {
+  box-sizing: border-box;
+  color: rgb(133, 133, 133);
+  display: block;
+  font-family: Brandon, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  height: 24px;
+}
+
+.text-field-error {
+  padding: 0.25em 0.5em;
+  box-sizing: border-box;
+}
+
+.error .text-field {
+  font-family: Brandon, sans-serif;
+  outline: none;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+  border: 1px solid red;
+}
+
+.error .text-field-error {
+  color: red;
+}
+
